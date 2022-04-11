@@ -1,24 +1,30 @@
 'use strict';
 
-const inputMeter = document.querySelector('#meter'),
-      inputInch = document.querySelector('#inch');
+let numberOfFilms;
+let questionNumOfFilms = "Сколько фильмов Вы уже посмотрели?";
+let questionFilmName = "Один из последних просмотренных фильмов?";
+let questionFilmRating = "На сколько оцените его?";
 
-inputMeter.addEventListener('input', () => {
-    const request = new XMLHttpRequest();
+numberOfFilms = prompt(questionNumOfFilms, [0]);
 
-    request.open('GET', 'js/current.json');
-    request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
-    request.send();
+let personalMovieDB = {
+    count: numberOfFilms,
+    movies: {
 
-    request.addEventListener('load', () => {
-        if (request.status === 200) {
-            const data = JSON.parse(request.response);
-            console.log(inputMeter.value);
-            console.log(data.current.inch);
-            inputInch.value = (+inputMeter.value * data.current.inch).toFixed(2);
-        } else {
-            inputInch.value = "Что-то пошло не так";
-        }
-    });
+    },
+    actors: {
 
-});
+    },
+    genres: [],
+    privat: false
+};
+
+let firstMovieName = prompt(questionFilmName, []),
+    firstMovieRating = prompt(questionFilmRating, []),
+    secondMovieName = prompt(questionFilmName, []),
+    secondMovieRating = prompt(questionFilmRating, []);
+
+personalMovieDB.movies[firstMovieName] = firstMovieRating;
+personalMovieDB.movies[secondMovieName] = secondMovieRating;
+
+console.log(personalMovieDB);
