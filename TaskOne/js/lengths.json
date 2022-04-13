@@ -1,0 +1,32 @@
+{
+    "lengths": {
+        "mm": {
+            "name": "Миллиметр",
+            "valueInMm": 1
+        },
+        "cm": {
+            "name": "Сантиметр",
+            "valueInMm": 10
+        },
+        "in": {
+            "name": "Дюйм",
+            "valueInMm": 25.4
+        },
+        "ft": {
+            "name": "Фут",
+            "valueInMm": 304.8
+        },
+        "m": {
+            "name": "Метр",
+            "valueInMm": 1000
+        },
+        "yd": {
+            "name": "Ярд",
+            "valueInMm": 914.4
+        },
+        "km": {
+            "name": "Километр",
+            "valueInMm": 1000000
+        }
+    }
+}
