@@ -1,0 +1,30 @@
+
+{"questions": 
+    [
+        [
+            "What is your marital status?", 
+            {"answerIndex": "1", "answer": "Single"}, 
+            {"answerIndex": "2", "answer": "Married"}
+        ],
+        [
+            "Are you planning on getting married next year?", 
+            {"answerIndex": "0", "answer": "Yes"},
+            {"answerIndex": "0", "answer": "No"}
+        ],
+        [
+            "How long have you been married?", 
+            {"answerIndex": "0", "answer": "Less than a year"},
+            {"answerIndex": "3", "answer": "More than a year"}
+        ],
+        [
+            "Have you celebrated your one year anniversary?", 
+            {"answerIndex": "0", "answer": "Yes"},
+            {"answerIndex": "0", "answer": "No"}
+        ]
+    ]
+}
+
+
+
+
+
