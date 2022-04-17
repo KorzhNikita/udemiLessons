@@ -19,7 +19,7 @@ function generateTask (obj) {
     let keys = Object.keys(obj);
     let randomUnit = keys[Math.floor(Math.random() * keys.length)];
     let randomConvertTo = keys[Math.floor(Math.random() * keys.length)];
-    let randomValue = Math.floor(Math.random() * 1000)
+    let randomValue = Math.floor(Math.random() * 1000);
     return JSON.stringify({"distance": {"unit": `${randomUnit}`, "value": `${randomValue}`}, "convert_to": `${randomConvertTo}`});
 }
 

@@ -2,24 +2,29 @@
 {"questions": 
     [
         [
-            "What is your marital status?", 
-            {"answerIndex": "1", "answer": "Single"}, 
-            {"answerIndex": "2", "answer": "Married"}
+            "Находитесь ли Вы в поиске работы?", 
+            {"answerIndex": "2", "answer": "Да"}, 
+            {"answerIndex": "1", "answer": "Нет"}
         ],
         [
-            "Are you planning on getting married next year?", 
-            {"answerIndex": "0", "answer": "Yes"},
-            {"answerIndex": "0", "answer": "No"}
+            "Хотите ли Вы в дальнейшем получать уведомления о новых вакансиях?", 
+            {"answerIndex": "0", "answer": "Да"},
+            {"answerIndex": "0", "answer": "Нет"}
         ],
         [
-            "How long have you been married?", 
-            {"answerIndex": "0", "answer": "Less than a year"},
-            {"answerIndex": "3", "answer": "More than a year"}
+            "Какое направление Вам интереснее?", 
+            {"answerIndex": "3", "answer": "Дизайн"},
+            {"answerIndex": "4", "answer": "Программирование"}
         ],
         [
-            "Have you celebrated your one year anniversary?", 
-            {"answerIndex": "0", "answer": "Yes"},
-            {"answerIndex": "0", "answer": "No"}
+            "Выберите подкатегорию?", 
+            {"answerIndex": "0", "answer": "Web Design"},
+            {"answerIndex": "0", "answer": "UI/UX"}
+        ],
+        [
+            "Выберите язык программирования?", 
+            {"answerIndex": "0", "answer": "Python"},
+            {"answerIndex": "0", "answer": "JS"}
         ]
     ]
 }
