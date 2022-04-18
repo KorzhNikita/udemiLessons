@@ -1,7 +1,7 @@
 //К сожалению, я пока не до конца разобрался как работает генетический алгоритм, поэтому 4я задача решена 
 //более классическим способом.
 
-let json = {"corrections": [2, 8, 10, 7, 12], "cells": [8, 4, 6, 2, 2, 10] };
+let json = {"corrections": [2, 8, 10, 7, 12], "cells": [8, 4, 6, 2, 2, 10, 6] };
 const corrections = json.corrections;
 const cells = json.cells;
 
